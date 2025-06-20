@@ -1,0 +1,39 @@
+.border{
+    border: 2px solid black;
+}
+
+.bg-grey{
+    background-color: #1b1b1b;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.color{
+    color: white;
+}
+
+.rounded{
+    border-radius: 20px;
+}
+
+.flex{
+    display: flex;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.circular{
+    border-radius: 50%
+}
+
+.m-1{
+    margin: 10px;
+}
+
+.foot-bg{
+    background-color:  rgba(124, 115, 115, 0.696);
+}

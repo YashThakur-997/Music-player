@@ -1,0 +1,81 @@
+@media (max-width:1440px){
+    .heading{
+        width: 100vw;
+    }
+
+    .sign-btn{
+        margin-left: -230px;
+    }
+
+    .login-btn{
+        margin-left: -100px;
+    }
+
+    .browse-icon{
+        margin-left: 14vw;
+    }
+
+    .left{
+        position: absolute;
+        z-index: 1;
+        left: -100vw;
+        height: 85vh;
+        width: 500px;
+        transition: all 0.3s ease-out;
+    }
+
+    .right{
+    width: 100vw;  /* Changed from 71vw to 100vw */
+    height: 85vh;
+    position: fixed;
+    left: 0;      /* Changed from 28vw to 0 */
+    overflow: hidden;
+    padding-left: -28vw;
+    }
+
+    .container1{
+        width: 100vw;
+        max-height: 84vh;
+    }
+
+    .foot{
+        margin-top: 86.2vh;
+    }
+
+    .hamburger{
+        opacity: 1;
+        display: block;
+        margin-right: 40px;
+        margin-top: 5px;
+    }
+
+    .hamburger img{
+        width: 50px;
+    }
+
+    .close{
+        display: block;
+        opacity: 1;
+        margin-left: 380px;
+        margin-top: 50px;
+        height: 50px;
+        width: 50px;
+    }
+
+    .create-playlist{
+        height: 200px;
+        width: 460px;
+    }
+
+    .language{
+        width: 200px;
+        height: 70px;
+        margin-top: 30vh;
+    }
+
+   .circle{
+    top: -3px;
+    height: 20px;
+    width: 20px;
+   }
+}

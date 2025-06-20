@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music_player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="mobile.css">
+</head>
+
+<body class="bg-black">
+    <header class="heading border bg-grey">
+        <nav class="nav flex">
+            <li><img src="main.png" alt="Menu Icon" class="menu-icon invert"></li>
+            <div class="home-icon circular bg-black">
+                <li><img src="home.svg" alt="Logo" class="logo invert"></li>
+            </div>
+            <div class=" search-engine flex bg-black rounded">
+                <li class="search-img"><img src="search.svg" alt="Search Icon" class="search-icon invert"></li>
+                <input type="text" class="search-input" placeholder="Search for songs...">
+                <li class="search-img"><img src="browse.svg" alt="Search Icon" class="browse-icon invert"></li>
+            </div>
+            <li class="sign-up"><button class="sign-btn">Sign up</button></li>
+            <li class="login"><button class="login-btn">Log in</button></li>
+        </nav>
+    </header>
+
+
+    <main>
+        <div class="container flex bg-black">
+            <div class="left border bg-grey">
+                <div class="close"><img src="close.svg"></div>
+                <div class="flex">
+                    <div class="your-lib">Your Library</div>
+                    <button class="create-lib circular">+</button>
+                </div>
+
+                <div class="create-playlist bg-black rounded">
+                    <p class="">Create your first playlist</p>
+                    <button class="rounded">Create Playlist</button>
+                </div>
+                <div class="language flex"><img src="language.svg" alt="language" class="invert">
+                    <div>Language</div>
+                </div>
+            </div>
+            <div class="right border bg-grey">
+                <div class="arrows flex">
+                    <div class="hamburger"><img src="hamburger.svg"></div>
+                    <div><img src="larrow.svg" alt="arrow" class="arr invert"></div>
+                    <div><img src="Rarrow.svg" alt="arrow" class="arr invert"></div>
+                </div>
+
+                    <div class="container1">
+                    </div>
+            </div>
+        </div>
+    </main>
+
+
+    <footer class="foot border foot-bg">
+        <div class="playbar">
+            <div class="seekbar">
+                <div class="circle"></div>
+            </div>
+        </div>
+                    <div class="controls flex">
+                        <div class="left-arrow"><img src="prev.svg" alt=""></div>
+                        <div class="play-button"><img src="playbutton.svg" alt="play-btn"></div>
+                        <div class="right-arrow"><img src="next.svg" alt=""></div>
+                        <span class="duration">00:00/00:00</span>
+                    </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
