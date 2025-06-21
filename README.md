@@ -3,6 +3,8 @@
 ⚠️ Warning: This project is still under development.
 (*) indicates under development
 
+Visit : https://yashthakur-997.github.io/Music-player/
+
 A responsive and sleek music player built with HTML, CSS, and JavaScript — featuring custom playlists, dynamic UI, and smooth playback controls.
 
 ## 🚀 Features
