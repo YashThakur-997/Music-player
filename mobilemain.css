@@ -1,0 +1,110 @@
+@media (max-width:390px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .heading {
+        width: 100vw;
+        padding-right: 110vw;
+        margin-left: 5vw;
+    }
+
+    .logo {
+        width: 30px;
+        height: 30px;
+        padding: 5px;
+    }
+
+    .home-icon {
+        margin-left: 5px;
+    }
+
+    .search-engine {
+        width: 90vw;
+    }
+
+
+    .sign-btn {
+        margin-left: -230px;
+        display: none;
+    }
+
+    .login-btn {
+        margin-left: -200px;
+    }
+
+    .browse-icon {
+        margin-left: -15vw;
+    }
+
+    .left {
+        position: absolute;
+        z-index: 1;
+        left: 0vw;
+        margin-right: 20px;
+        height: 85vh;
+        width: 500px;
+        transition: all 0.3s ease-out;
+    }
+
+    .create-playlist {
+        height: 20vh;
+        width: 440px;
+    }
+
+    .language{
+        width: 200px;
+        height: 50px;
+    }
+
+    .right {
+        width: 95%;
+        margin-left: -23vw;
+        position: fixed;
+        /* Changed from 71vw to 100vw */
+        height: 80%;
+        /* Changed from 28vw to 0 */
+        overflow: hidden;
+
+    }
+
+    .container1 {
+        position: relative;
+        max-height: 170vh;
+    }
+
+    .foot {
+        position: absolute;
+        top: 120vh;
+        left: 5vw;
+        height: 10vh;
+        width: 205vw;
+    }
+
+    .hamburger {
+        opacity: 1;
+        display: block;
+        margin-right: 20px;
+    }
+
+    .close {
+        display: block;
+        opacity: 1;
+        margin-left: 380px;
+        margin-top: 50px;
+        height: 50px;
+        width: 50px;
+    }
+
+    .left-arrow img{
+        margin-left: 75vw;
+    }
+
+    .seekbar{
+        width: 70%;
+        margin-left: 28vw;
+        margin-bottom: 1vh;
+    }
+
+}

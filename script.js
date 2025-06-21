@@ -166,5 +166,5 @@ main();
         });
 
   document.querySelector(".close").addEventListener("click",()=>{
-    document.querySelector(".left").style.left="-100vw"
+    document.querySelector(".left").style.left="-150vw"
   })

@@ -1,21 +1,21 @@
-@media (max-width:1440px){
-    .heading{
+@media (min-width:391px) and (max-width:1440px) {
+    .heading {
         width: 100vw;
     }
 
-    .sign-btn{
+    .sign-btn {
         margin-left: -230px;
     }
 
-    .login-btn{
+    .login-btn {
         margin-left: -100px;
     }
 
-    .browse-icon{
+    .browse-icon {
         margin-left: 14vw;
     }
 
-    .left{
+    .left {
         position: absolute;
         z-index: 1;
         left: -100vw;
@@ -24,36 +24,38 @@
         transition: all 0.3s ease-out;
     }
 
-    .right{
-    width: 100vw;  /* Changed from 71vw to 100vw */
-    height: 85vh;
-    position: fixed;
-    left: 0;      /* Changed from 28vw to 0 */
-    overflow: hidden;
-    padding-left: -28vw;
+    .right {
+        width: 100vw;
+        /* Changed from 71vw to 100vw */
+        height: 85vh;
+        position: fixed;
+        left: 0;
+        /* Changed from 28vw to 0 */
+        overflow: hidden;
+        padding-left: -28vw;
     }
 
-    .container1{
+    .container1 {
         width: 100vw;
         max-height: 84vh;
     }
 
-    .foot{
+    .foot {
         margin-top: 86.2vh;
     }
 
-    .hamburger{
+    .hamburger {
         opacity: 1;
         display: block;
         margin-right: 40px;
         margin-top: 5px;
     }
 
-    .hamburger img{
+    .hamburger img {
         width: 50px;
     }
 
-    .close{
+    .close {
         display: block;
         opacity: 1;
         margin-left: 380px;
@@ -62,20 +64,22 @@
         width: 50px;
     }
 
-    .create-playlist{
+    .create-playlist {
         height: 200px;
         width: 460px;
     }
 
-    .language{
+    .language {
         width: 200px;
         height: 70px;
         margin-top: 30vh;
     }
 
-   .circle{
-    top: -3px;
-    height: 20px;
-    width: 20px;
-   }
+    .circle {
+        top: -3px;
+        height: 20px;
+        width: 20px;
+    }
+
+
 }
