@@ -41,7 +41,7 @@
     .left {
         position: absolute;
         z-index: 1;
-        left: 0vw;
+        left: -150vw;
         margin-right: 20px;
         height: 85vh;
         width: 500px;
