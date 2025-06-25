@@ -15,6 +15,7 @@ A responsive and sleek music player built with HTML, CSS, and JavaScript — fea
 - Custom playlist rendering with track info and cover art *
 - SVG-based icons and subtle transitions
 - Mobile-first design with media queries for different screen sizes
+- ADDED SEARCH FUNCTIONALITY
 
 ## 🛠 Tech Stack
 
