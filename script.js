@@ -2,6 +2,8 @@ console.log("lets begin..!")
 
 let currentAudio = null;
 
+let songs = [];
+
 
 function formatTime(seconds) {
     const totalSeconds = Math.round(seconds); // Round to nearest whole number
@@ -17,7 +19,6 @@ async function getsongs() {
     try {
         let a = await fetch(`https://api.jamendo.com/v3.0/tracks/?client_id=820d73b7&format=json&limit=200`)
         let response = await a.json()
-        let songs = [];
 
         response.results.forEach(element => {
             songs.push({
@@ -154,6 +155,9 @@ async function main() {
         card1.appendChild(artist);
         card1.appendChild(playbutton);
         container11.appendChild(card1);
+
+        song.element = card1;
+        songs.push(song);
     });
 
     document.body.appendChild(container11);
@@ -161,10 +165,23 @@ async function main() {
 
 main();
 
-  document.querySelector(".hamburger").addEventListener("click",()=>{
-            document.querySelector(".left").style.left="0vw"
-        });
+document.querySelector(".hamburger").addEventListener("click", () => {
+    document.querySelector(".left").style.left = "0vw"
+});
 
-  document.querySelector(".close").addEventListener("click",()=>{
-    document.querySelector(".left").style.left="-150vw"
-  })
+document.querySelector(".close").addEventListener("click", () => {
+    document.querySelector(".left").style.left = "-150vw"
+})
+
+
+// Search functionality
+const searchInput = document.querySelector(".search-input");
+
+searchInput.addEventListener("input", e => {
+    const value = e.target.value.toLowerCase().trim();
+
+    songs.forEach(song => {
+        const isVisible = song.name.toLowerCase().includes(value) || song.author.toLowerCase().includes(value)
+        song.element.classList.toggle("hidden", !isVisible);
+    })
+});

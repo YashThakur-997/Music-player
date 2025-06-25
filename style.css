@@ -434,3 +434,7 @@ body {
 .close{
     display: none;
 }
+
+.hidden{
+    display: none;
+}
